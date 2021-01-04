@@ -1,0 +1,72 @@
+:root {
+    font-size: 15pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    float: left;
+    margin-bottom: 12px;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+
+}
+
+p {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+
+}
+
+.logo {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.subtitel {
+    text-align: center;
+    background-color: darkgreen;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aussenbild {
+    max-width: 100%;
+
+}
+
+.textfrontpage{
+    margin: 10px;
+}
