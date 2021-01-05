@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurant Rüti</title>
-    <link href="css/Rüti.css" rel="stylesheet"/>
-    <link href="css/Rüti_Burger.css" rel="stylesheet"/>
+    <link href="css/Rüti.css" rel="stylesheet" />
+    <link href="css/Rüti_Burger.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -18,22 +21,50 @@
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
-            <img src="Rüti_Bilder/Rüti_Logo_Px.png" alt="Logo von Rüti" class="logo"/>
+            <img src="Rüti_Bilder/Rüti_Logo_Px.png" alt="Logo von Rüti" class="logo" />
         </div>
-            
-        
+
+
 
         <div class=navigation>
-        <nav id="nav">
-            <div class="mobile-menu">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Reservationen</a></li>
-                    <li><a href="">Take Away</a></li>
-                    <li><a href="">Ort</a></li>
-                    <li><a href="">Kontakt</a></li>
-                </ul>
-            </div>
-        </nav>
+            <nav id="nav" class="hidden">
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="">Reservationen</a></li>
+                        <li><a href="">Take Away</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
+
+    </header>
+    <section class="landingpage">
+
+        <div class="subtitel">
+            <h1> Menu </h1>
+        </div>
+
+
+
+
+
+
+
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
+    
+    
+        <script src="Js/Menubutton.js"></script>
+    
+    
+    
+    
+    </body>
+    
+    </html>

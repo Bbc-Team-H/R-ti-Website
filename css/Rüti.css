@@ -16,7 +16,7 @@ body {
 
 h1 {
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',;
     font-size: 2rem;
     float: left;
 }
@@ -29,9 +29,18 @@ h2 {
 }
 
 h3 {
-    color: #FFFFFF;
+    color:darkgreen;
     font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+}
 
+h4 {
+color: red;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-size: 0.5rem;
+    
 }
 
 p {
@@ -113,11 +122,46 @@ header {
 .textfrontpage{
     margin: 10px;
 }
-}
+
 
 .hidden {
     display: none;
 }
+
+.Kontakttext {
+   text-align: center;
+   margin: 10px;
+   font-size: 0.8rem;
+
+}
+
+.Überschribtkontakt {
+    text-align: center;
+    margin: 10px;
+}
+
+.googlemaps {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.covid {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 600px){
 
