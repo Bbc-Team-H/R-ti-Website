@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"content="Kontakt und Informationen">
     <title>Restaurant Rüti</title>
     <link href="css/Rüti.css" rel="stylesheet" />
     <link href="css/Rüti_Burger.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="loadAnimation()">
     <header>
         <div class="header">
             <div class="container" onclick="myFunction(this)" id="burgerbutton">
@@ -41,6 +42,7 @@
         </div>
 
     </header>
+    <div id="content-container">
     <section class="landingpage">
 
 
@@ -63,9 +65,9 @@
         </div>
         <div class=googlemaps>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.2862240317113!2d7.505228757673808!3d46.95606609483933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e3a00c3a6f2ff%3A0xdfdfe6d6cff44b45!2sR%C3%BCti%20Grill!5e0!3m2!1sde!2sch!4v1609852166975!5m2!1sde!2sch"
-                width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.2862240317113!2d7.505228757673808!3d46.95606609483933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e3a00c3a6f2ff%3A0xdfdfe6d6cff44b45!2sR%C3%BCti%20Grill!5e0!3m2!1sde!2sch!4v1609852166975!5m2!1sde!2sch"
+            width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
         </div>
 
         <div class="textfrontpage">
@@ -93,7 +95,7 @@
                 So: 10:00–21:00 Uhr
         </div>
 
-
+    </div>
 
         <footer>
             <h1 class="title-rueti">Schnellzugriff</h1>
@@ -105,7 +107,9 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
             <div class="self-promotion">
+                <a href="impressum.html" class="impressum">Impressum</a>
                 <span>Website by Ricardo Fernandes</span>
+                <a href="Privacy_policy.html" class="Privacy">Privacy Policy</a>
             </div>
             <h1 class="title-contact">Kontakt</h1>
             <div class="contact">
@@ -149,6 +153,7 @@
 
         <script src="Js/Menubutton.js">
         </script>
+        <script src="js/main.js"></script>
 
 
 

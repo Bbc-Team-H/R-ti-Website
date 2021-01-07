@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"content="Das Reservierungsformular für das Restaurant Rüti">
     <title>Restaurant Rüti</title>
     <link href="css/Rüti.css" rel="stylesheet" />
     <link href="css/Rüti_Burger.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="loadAnimation()">
     <header>
         <div class="header">
             <div class="container" onclick="myFunction(this)" id="burgerbutton">
@@ -41,6 +42,7 @@
         </div>
 
     </header>
+    <div id="content-container">
     <section class="landingpage">
 
 
@@ -49,6 +51,12 @@
         <div class="subtitel">
             <h1> Reservationen </h1>
         </div>
+
+
+        <p>place holder</p>
+    </div>
+
+
 
 
         <footer>
@@ -61,7 +69,9 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
             <div class="self-promotion">
+                <a href="impressum.html" class="impressum">Impressum</a>
                 <span>Website by Ricardo Fernandes</span>
+                <a href="Privacy_policy.html" class="Privacy">Privacy Policy</a>
             </div>
             <h1 class="title-contact">Kontakt</h1>
             <div class="contact">
@@ -88,7 +98,7 @@
     
     
         <script src="Js/Menubutton.js"></script>
-    
+        <script src="js/main.js"></script>
     
     
     

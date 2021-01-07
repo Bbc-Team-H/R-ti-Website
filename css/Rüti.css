@@ -54,9 +54,9 @@ header {
     position: sticky;
     top: 0;
     margin: 0;
-    -webkit-box-shadow: 0px 9px 27px -10px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 9px 27px -10px rgba(0,0,0,1);
-    box-shadow: 0px 9px 27px -10px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 9px 27px -20px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 9px 27px -20px rgba(0,0,0,1);
+    box-shadow: 0px 9px 27px -20px rgba(0,0,0,1);
 
 }
 
@@ -225,6 +225,10 @@ header {
 
 }
 
+#content-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
 
 .header{
     position: sticky;
@@ -236,9 +240,9 @@ header {
     background-color: white;
     top: 0;
     margin: 0;
-    -webkit-box-shadow: 0px 9px 27px -10px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 9px 27px -10px rgba(0,0,0,1);
-    box-shadow: 0px 9px 27px -10px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 9px 27px -20px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 9px 27px -20px rgba(0,0,0,1);
+    box-shadow: 0px 9px 27px -20px rgba(0,0,0,1);
 }
 
 .subtitel {
@@ -294,8 +298,9 @@ body {
 }
 
 .textfrontpage{
-    margin: 10px;
     text-align: center;
+    width: 960px;
+    margin:0 auto;
 }
 
 .aussenbild {
@@ -366,10 +371,10 @@ p {
 footer {
     padding-top: 20px;
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,100,0,0.5634628851540616) 6%, rgba(0,100,0,1) 100%);
-    text-align: center;
     Display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25px 175px 30px;
+    text-align: left;
 }
 footer a {
     font-size: 14.5px;
@@ -381,6 +386,7 @@ footer a {
 .title-rueti {
     grid-column: 1/2;
     font-size: 20px;
+    padding-left: 40px;
 }
 .categories {
     text-align: left;
@@ -406,6 +412,7 @@ footer a {
     border-top: 3px solid #4d4b4b;
     color: #ffffff;
     font-size: 12px;
+    text-align: center;
 }
 .self-promotion p {
     padding-top: 2px;
@@ -416,7 +423,13 @@ footer a {
     color: white;
 }
 
+.impressum {
+    padding-right: 20px;
+}
 
+.Privacy-Policy {
+    padding-right: 20px;
+}
 
 
 
