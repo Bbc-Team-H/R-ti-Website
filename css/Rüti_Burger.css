@@ -44,7 +44,7 @@
     transform: rotate(45deg) translate(-6px, -8px);
 }
 
-@media screen and (min-width: 545px){
+@media screen and (min-width: 600px){
     .container {
         display:none;
     }
